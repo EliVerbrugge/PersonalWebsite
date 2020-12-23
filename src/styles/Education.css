@@ -1,0 +1,48 @@
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+  text-align: center;
+  font-family: "Roboto";
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+.Logo {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+
+.subheading {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+
+  color: #343a40;
+}
+
+div, p
+{
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+
+}
