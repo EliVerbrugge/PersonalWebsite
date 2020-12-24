@@ -1,8 +1,8 @@
 import React from "react"
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
 const Header = () => (
-  <Navbar bg="dark" variant="dark">
+  <Navbar bg="dark" expand="lg" variant="dark">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">
