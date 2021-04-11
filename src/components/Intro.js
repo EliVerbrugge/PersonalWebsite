@@ -11,8 +11,8 @@ const Intro = () => (
       <br/>
       <br/>
       <h3 style={{fontFamily: "Roboto"}}>
-        I'm Eli Verbrugge <img src={FiestaImg} alt="Avatar" class="avatar" />, a Computer Science graduate interested in building cool tech whether it be
-        robots, awesome websites or providing cool insights into the technology of the future.
+        I'm Eli Verbrugge <img src={FiestaImg} alt="Avatar" class="avatar" />, a Computer Science and Computer Engineering graduate interested in building cool tech whether it be
+        robots, awesome applications to control them or providing cool data insights into tech.
       </h3>
       <br />
       <br />
