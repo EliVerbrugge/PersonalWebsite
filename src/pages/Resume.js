@@ -1,14 +1,16 @@
 import React from "react"
 import Header from "../components/Header";
-
+import Resume from "../components/Resume"
+import { Document } from 'react-pdf'
 
 function ResumePage() {
   return (
     <div>
-        <Header />
-        <iframe src="https://onedrive.live.com/embed?cid=17C487D11EF85373&resid=17C487D11EF85373%215480&authkey=ADG4uyqTAVJRSpQ&em=2" width="100%" height="700px" frameborder="0" scrolling="no"></iframe>
+      <Header />
+      <Resume />
     </div>
   );
 }
 
 export default ResumePage;
+

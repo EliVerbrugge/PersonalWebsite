@@ -25,5 +25,37 @@ module.exports = {
             width        : '25px'
           }
         }
-      }],
+      },
+      {
+        resolve: 'gatsby-plugin-web-font-loader',
+        options: {
+          google: {
+            families: ['Roboto', 'Droid Serif']
+          }
+        }
+      },
+      {
+        resolve: 'gatsby-plugin-next-seo',
+        options: {
+         title: "Eli Verbrugge"
+        },
+      },
+      {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          name: `Test`,
+          short_name: `GatsbyJS`,
+          start_url: `/`,
+          background_color: `#f7f0eb`,
+          theme_color: `#a2466c`,
+          display: `standalone`,
+          icon: `src/images/me.png`,
+          icon_options: {
+            // For all the options available,
+            // please see the section "Additional Resources" below.
+            purpose: `any maskable`,
+          },
+        },
+      },
+    ],
 };
