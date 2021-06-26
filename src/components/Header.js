@@ -8,6 +8,7 @@ const Header = () => (
         <Nav className="mx-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Resume">Resume</Nav.Link>
+            <Nav.Link href="/Experience">Experience</Nav.Link>
         </Nav>
     </Navbar.Collapse>
   </Navbar>

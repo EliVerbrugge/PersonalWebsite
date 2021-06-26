@@ -1,7 +1,7 @@
 import React from "react"
 import Typist from 'react-typist';
 import Links from "../components/Links"
-import FiestaImg from "../images/me.png"
+import Me from "../images/me.png"
 
 const Intro = () => (
   <div style={{textAlign: "center", marginTop: "10%", marginLeft: "10%", marginRight: "10%"}}>
@@ -11,7 +11,7 @@ const Intro = () => (
       <br/>
       <br/>
       <h3 style={{fontFamily: "Roboto"}}>
-        I'm Eli Verbrugge <img src={FiestaImg} alt="Avatar" class="avatar" />, a Computer Science and Computer Engineering graduate interested in building cool tech whether it be
+        I'm Eli Verbrugge <img src={Me} alt="Avatar" class="avatar"/>, a Computer Science and Computer Engineering graduate interested in building cool tech whether it be
         robots, awesome applications to control them or providing cool data insights into tech.
       </h3>
       <br />
