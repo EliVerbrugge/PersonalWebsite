@@ -5,7 +5,7 @@ import Microsoft from "../images/microsoft.png"
 
 const Experience = () => (
     <div>
-        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50}}>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50 , textAlign: "center"}}>
             <h1 style={{paddingBottom: 25}}>Internships</h1>
             <Card border="primary" style={{}}>
                 <Card.Header>Software Engineer Intern</Card.Header>

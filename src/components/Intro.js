@@ -10,7 +10,7 @@ const Intro = () => (
       </Typist>
       <br/>
       <br/>
-      <h3 style={{fontFamily: "Roboto"}}>
+      <h3 style={{}}>
         I'm Eli Verbrugge <img src={Me} alt="Avatar" class="avatar"/>, a Computer Science and Computer Engineering graduate interested in building cool tech whether it be
         robots, awesome applications to control them or providing cool data insights into tech.
       </h3>
