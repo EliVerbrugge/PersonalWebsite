@@ -15,7 +15,7 @@ const Intro = () => (
         <br/>
         <h3 style={{}}>
           I'm Eli Verbrugge <img src={Me} alt="Avatar" class="avatar"/>, a Computer Science and Computer Engineering graduate interested in building cool tech whether it be
-          robots, awesome applications to control them or providing cool data insights into tech.
+          cool data insights, robots, or awesome ways to control or enhance them.
         </h3>
         <br />
         <br />

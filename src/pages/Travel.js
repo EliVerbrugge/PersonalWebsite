@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/Header";
 import Travel from "../components/Travel";
-import backgroundImage from "../images/background6.jpg"
+import backgroundImage from "../images/background4.jpg"
 
 
 function TravelPage() {

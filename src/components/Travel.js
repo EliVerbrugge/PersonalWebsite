@@ -9,6 +9,12 @@ import BlackCanyon from "../images/blackcanyon/view.jpg"
 import GreatSand from "../images/greatsanddunes/view.jpg"
 import Arches from "../images/arches/view.jpg"
 import Canyonlands from "../images/canyonlands/view.jpg"
+import Zion from "../images/zion/view.jpg"
+import BryceCanyon from "../images/brycecanyon/view.jpg"
+import CapitolReef from "../images/capitolreef/view.jpg"
+import Sequoia from "../images/sequoia/view.jpg"
+import KingsCanyon from "../images/kingscanyon/view.jpg"
+import MtRainier from "../images/mtrainier/view.jpg"
 
 const Travel = () => (
     <div>
@@ -30,9 +36,41 @@ const Travel = () => (
         </div>
         <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
             <Card className="bg-dark text">
+                <Card.Img src={Zion} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Zion</Card.Title>
+                </Card.ImgOverlay>
+            </Card>
+        </div>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
+            <Card className="bg-dark text">
+                <Card.Img src={MtRainier} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Mt. Rainier</Card.Title>
+                </Card.ImgOverlay>
+            </Card>
+        </div>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
+            <Card className="bg-dark text">
                 <Card.Img src={BlackCanyon} alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title>Black Canyon of the Gunnison</Card.Title>
+                </Card.ImgOverlay>
+            </Card>
+        </div>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
+            <Card className="bg-dark text-white">
+                <Card.Img src={Sequoia} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Sequoia</Card.Title>
+                </Card.ImgOverlay>
+            </Card>
+        </div>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
+            <Card className="bg-dark text">
+                <Card.Img src={BryceCanyon} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Bryce Canyon</Card.Title>
                 </Card.ImgOverlay>
             </Card>
         </div>
@@ -49,6 +87,22 @@ const Travel = () => (
                 <Card.Img src={Arches} alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title>Arches</Card.Title>
+                </Card.ImgOverlay>
+            </Card>
+        </div>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
+            <Card className="bg-dark text">
+                <Card.Img src={KingsCanyon} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Kings Canyon</Card.Title>
+                </Card.ImgOverlay>
+            </Card>
+        </div>
+        <div class="w-50 mx-auto" style={{  paddingTop: 50, paddingBottom: 50, textAlign: "center"}}>
+            <Card className="bg-dark text">
+                <Card.Img src={CapitolReef} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Title>Capitol Reef</Card.Title>
                 </Card.ImgOverlay>
             </Card>
         </div>
